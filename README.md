@@ -23,27 +23,41 @@ Observations: Thousands of individual ride entries
 
 Analysis Focus:-
 Data Cleaning & Outlier Handling
+
 Exploratory Data Analysis (EDA)
+
 Distance Calculation using Haversine Formula
+
 Feature Engineering (hour of day, ride distance, etc.)
+
 Model Training with Multiple Regressors
+
 Model Evaluation using standard performance metrics
 
  Key Insights:-
 Fare amounts are significantly influenced by trip distance and time of day
+
 Short-distance trips during peak hours show increased fare variability
+
 Optimal performance achieved with Random Forest Regressor (low RMSE, high R²)
+
 Important features: trip distance, pickup hour, and day of the week
 
  Recommendations:-
 Integrate real-time pricing estimator for customer transparency
+
 Implement dynamic pricing based on traffic, distance, and demand
+
 Use predictive model to flag potentially anomalous or fraudulent fares
+
 Enhance user experience by showing estimated fare ranges before booking
 
  Outcome:-
 Best Model: Random Forest Regressor
+
 RMSE: ~2.15 (on test set)
+
 R² Score: ~0.89
+
 Built a reliable model for estimating taxi fares in real-world scenarios
  
